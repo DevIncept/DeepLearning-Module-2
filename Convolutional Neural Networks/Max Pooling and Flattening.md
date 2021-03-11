@@ -16,15 +16,15 @@
 
 **Max pooling-Max pooling is a pooling operation that selects the maximum element from the region of the feature map covered by the filter. Thus, the output after max-pooling layer would be a feature map containing the most prominent features of the previous feature map**
 
-![p1.png](attachment:p1.png)
+![p1.png](images/p1.png)
 
 **Mean pooling-where we take largest of the pixel values of a segment**
 
-![p2.png](attachment:p2.png)
+![p2.png](images/p2.png)
 
 **Avg pooling-Average pooling computes the average of the elements present in the region of feature map covered by the filter. Thus, while max pooling gives the most prominent feature in a particular patch of the feature map, average pooling gives the average of features present in a patch.**
 
-![p3.png](attachment:p3.png)
+![p3.png](images/p3.png)
 
 **Stochastic pooling**: Randomly picked activation within each pooling region is considered than deterministic pooling operations for regularization of the network. Stochastic pooling performs reduction of feature size but denies role for selecting features judiciously for the sake of regularization. Although clipping of negative output from ReLU activation helps to carry some of the selection responsibility.
 
@@ -72,7 +72,7 @@ It just so happens that the chosen line detector image and feature map produce t
 
 *To flatten a tensor, we need to have at least two axes. This makes it so that we are starting with something that is not already flat. Let's look now at a hand written image of an eight from the MNIST dataset. This image has 2 distinct dimensions, height and width.*
 
-![f1.jpg](attachment:f1.jpg)
+![f1.jpg](images/f1.jpg)
 
 *The height and width are 18 x 18 respectively. These dimensions tell us that this is a cropped image because the MNIST dataset contains 28 x 28 images. Let's see now how these two axes of height and width are flattened out into a single axis of length 324.\
 The image above shows our flattened output with a single axis of length 324. The white on the edges corresponds to the white at the top and bottom of the image.\
