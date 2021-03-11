@@ -7,7 +7,7 @@
 
 *At first, the DNN creates a map of virtual neurons and assigns random numerical values, or "weights", to connections between them. The weights and inputs are multiplied and return an output between 0 and 1. If the network did not accurately recognize a particular pattern, an algorithm would adjust the weights.*
 
-![dnn1.jpg](attachment:dnn1.jpg)
+![dnn1.jpg](images/dnn1.jpg)
 
 *The DNN classifier consists of neuron layers, which work using the activation function, called rectified linear unit (ReLU). The mathematical form of the DNN using SCMR-SVM  input is given in Eq. (1). The output layer relies on the cost function and softmax function, which is regarded as cross-entropy.\
 
@@ -38,7 +38,7 @@ Backpropagation is a short form for "backward propagation of errors." It is a st
 ## How Backpropagation Works: Simple Algorithm
 **Consider the following diagram**
 
-![b1.png](attachment:b1.png)
+![b1.png](images/b1.png)
 
 **1.Inputs X, arrive through the preconnected path\
 2.Input is modeled using real weights W. The weights are usually randomly selected.\
@@ -74,15 +74,15 @@ It does not need any special mention of the features of the function to be learn
 
 *The output of the CNN is a set of several channels (also known as feature maps). We can have separate GRUs acting on each channel (with or without weight sharing) as described in this picture:*
 
-![r1.png](attachment:r1.png)
+![r1.png](images/r1.png)
 
 *Another option is to interpret CNN’s output as a 3D-tensor and run a single GRU on 2D slices of that tensor:*
 
-![r2.png](attachment:r2.png)
+![r2.png](images/r2.png)
 
 *The latter option has more parameters, but the information from different channels is mixed inside the GRU, and it seems to improve performance. This architecture is similar to the one described in this paper on speech recognition, except that they also use some residual connections (“shortcuts”) from input to RNN and from CNN to fully connected layers. It is interesting to note that recently it was shown that similar architectures work well for text classification*
 
-![Capture.PNG](attachment:Capture.PNG)
+![Capture.PNG](images/Capture.PNG)
 
 
 ```python
