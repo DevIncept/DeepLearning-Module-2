@@ -19,36 +19,36 @@
 
 *Convolution is the first layer to extract features from an input image. Convolution preserves the relationship between pixels by learning image features using small squares of input data. It is a mathematical operation that takes two inputs such as image matrix and a filter or kernel.*
 
-![im1.png](attachment:im1.png)
+![im1.png](images/im1.png)
 
 *Consider a 5 x 5 whose image pixel values are 0, 1 and filter matrix 3 x 3 as shown in below*
 
-![im2.png](attachment:im2.png)
+![im2.png](images/im2.png)
 
 *Then the convolution of 5 x 5 image matrix multiplies with 3 x 3 filter matrix which is called “Feature Map” as output shown in below*
 
-![im3.gif](attachment:im3.gif)
+![im3.gif](images/im3.gif)
 
 *Convolution of an image with different filters can perform operations such as edge detection, blur and sharpen by applying filters. The below example shows various convolution image after applying different types of filters (Kernels).*
 
-![im4.png](attachment:im4.png)
+![im4.png](images/im4.png)
 
 ## Need and working of convolution layer
 
 *CNNs compare images piece by piece. The pieces that it looks for are called features. By finding rough feature matches in roughly the same positions in two images, CNNs get a lot better at seeing similarity than whole-image matching schemes*\
 *Each feature is like a mini-image a small two-dimensional array of values. Features match common aspects of the images. In the case of X images, features consisting of diagonal lines and a crossing capture all the important characteristics of most X’s. These features will probably match up to the arms and center of any image of an X*
 
-![c1.png](attachment:c1.png)
+![c1.png](images/c1.png)
 
 *When presented with a new image, the CNN doesn’t know exactly where these features will match so it tries them everywhere, in every possible position. In calculating the match to a feature across the whole image, we make it a filter. The math we use to do this is called convolution, from which Convolutional Neural Networks take their name*\
 
 *To calculate the match of a feature to a patch of the image, simply multiply each pixel in the feature by the value of the corresponding pixel in the image. Then add up the answers and divide by the total number of pixels in the feature. If both pixels are white (a value of 1) then 1 * 1 = 1. If both are black, then (-1) * (-1) = 1. Either way, every matching pixel results in a 1. Similarly, any mismatch is a -1. If all the pixels in a feature match, then adding them up and dividing by the total number of pixels gives a 1. Similarly, if none of the pixels in a feature match the image patch, then the answer is a -1.*
 
-![c2.png](attachment:c2.png)
+![c2.png](images/c2.png)
 
 *To complete our convolution, we repeat this process, lining up the feature with every possible image patch. We can take the answer from each convolution and make a new two-dimensional array from it, based on where in the image each patch is located. This map of matches is also a filtered version of our original image. It’s a map of where in the image the feature is found. Values close to 1 show strong matches, values close to -1 show strong matches for the photographic negative of our feature, and values near zero show no match of any sort.*
 
-![c3.png](attachment:c3.png)
+![c3.png](images/c3.png)
 
 *The next step is to repeat the convolution process in its entirety for each of the other features. The result is a set of filtered images, one for each of our filters. It’s convenient to think of this whole collection of convolution operations as a single processing step. In CNNs this is referred to as a convolution layer,*
 
