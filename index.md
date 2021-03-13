@@ -33,6 +33,8 @@
     
     - [Part10: Introduction-to-Neuron -> Activation Function](t5-2-Neural-Networks/Introduction-to-Neuron/3.Activation-Function.md)
     
-3. [Part 3(a): Introduction-to-Neuron -> Convolutional Layer](Convolutional-Neural-Networks/Convolutional Layer.md)
-Convolutional-Neural-Networks/Convolutional Layer.md
+3. [Part 3(a): Introduction to Neuron - Convolutional Layer](Convolutional-Neural-Networks/Convolutional-Layer.md)
+4. [Part 3(b): Introduction to Neuron - Full-connection](Convolutional-Neural-Networks/Full-connection.md)
+5. [Part 3(c): Introduction to Neuron - Max-Pooling-and-Flattening](Convolutional-Neural-Networks/Max-Pooling-and-Flattening.md)
+ 
 11. [Assignment](assignment.md)
