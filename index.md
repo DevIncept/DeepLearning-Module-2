@@ -27,11 +27,11 @@
 
     - [Part 2(i):  Introduction to Neural Networks-> Advantages Multilayer Nets](t5-2-Neural-Networks/Introduction-to-Neural-Networks/GoodnessGureje_6_AdvantagesMultilayerNets_DeepLearning.md)
 
-    - [Part10: Introduction-to-Neuron -> Working-of-Neuron](t5-2-Neural-Networks/Introduction-to-Neuron/1.Working-of-Neuron.md)
+    - [Part 2(j): Introduction-to-Neuron -> Working-of-Neuron](t5-2-Neural-Networks/Introduction-to-Neuron/1.Working-of-Neuron.md)
 
-    - [Part10: Introduction-to-Neuron -> Hypothesis-Function](t5-2-Neural-Networks/Introduction-to-Neuron/2.Hypothesis-Function.md)
+    - [Part 2(k): Introduction-to-Neuron -> Hypothesis-Function](t5-2-Neural-Networks/Introduction-to-Neuron/2.Hypothesis-Function.md)
     
-    - [Part10: Introduction-to-Neuron -> Activation Function](t5-2-Neural-Networks/Introduction-to-Neuron/3.Activation-Function.md)
+    - [Part 2(l): Introduction-to-Neuron -> Activation Function](t5-2-Neural-Networks/Introduction-to-Neuron/3.Activation-Function.md)
     
 3. [Part 3(a): Introduction to Neuron - Convolutional Layer](Convolutional-Neural-Networks/Convolutional-Layer.md)
 4. [Part 3(b): Introduction to Neuron - Full-connection](Convolutional-Neural-Networks/Full-connection.md)
