@@ -8,4 +8,4 @@
    2. Try understanding [Deep Residual Learning for Image Recognition](https://arxiv.org/pdf/1512.03385.pdf).
    3. Explain what you understood in points (more that 200 words)
    4. Below put your Name and contact information,so that your details can be added if your article is selected for getting published.
-5. Create pull request and put the link in the last **Quiz form**.
+5. Create pull request and put the link in the last **Quiz form** (the one which will be shared after Module 4).
